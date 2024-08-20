@@ -1,0 +1,150 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-family: "Merriweather", serif;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #ff9900;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+footer p {
+  margin: 0;
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro,
+.sobre,
+.contato {
+  text-align: center;
+}
+
+.intro h2,
+.sobre h2,
+.contato h2 {
+  color: #ff9900;
+  font-family: "Merriweather", serif;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.categorias {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.categoria {
+  flex: 1;
+  margin: 0 1rem;
+  min-width: 200px;
+}
+
+.categoria h3 {
+  color: #ff9900;
+  font-family: "Merriweather", serif;
+}
+
+.categoria ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.categoria ul li {
+  margin: 0.5rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+form input,
+form textarea,
+form button {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form button {
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+
+form button:hover {
+  background-color: #e68a00;
+}
